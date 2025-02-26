@@ -16,7 +16,8 @@ This project specifically focuses on a **Cold Email Generator** using **LLaMA 3.
 ```
 genai-projects/
 │── email generator/
-│   ├── app main.py             # Entry point for email generation
+│   ├── app/
+|       ├──main.py             # Entry point for email generation
 │       ├── chain.py            # Handles LLM processing and email prompts
 │       ├── portfolio.py        # Reads data from my_portfolio.csv
 │       ├── utils.py            # JSON parser (converts str -> JSON)
