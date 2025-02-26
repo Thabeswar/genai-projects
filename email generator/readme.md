@@ -21,11 +21,11 @@ genai-projects/
 │       ├── chain.py            # Handles LLM processing and email prompts
 │       ├── portfolio.py        # Reads data from my_portfolio.csv
 │       ├── utils.py            # JSON parser (converts str -> JSON)
+|       │── requirements.txt        # List of dependencies
 │       ├── resource/
 │           ├── my_portfolio.csv    # Portfolio details for personalization
 
 │── README.md               # Project documentation
-│── requirements.txt        # List of dependencies
 ```
 
 ## 🛠️ Installation
